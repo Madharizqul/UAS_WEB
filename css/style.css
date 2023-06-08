@@ -1,0 +1,212 @@
+/* Ini adalah CSS*/
+article, 
+aside, 
+footer, 
+header, 
+main, 
+nav, 
+section {
+	display: block;
+	 /* Ini untuk tampilan ke bawah */
+}
+html, 
+body, 
+h1, 
+h2, 
+h3, 
+ul, 
+li, 
+a, 
+p,
+article, 
+aside, 
+footer, 
+header, 
+main, 
+nav, 
+section {
+	padding: 0;
+	 /* Ini untuk memberikan spasi atau ruang diantara konten dan border */
+	margin: 0;
+	 /* Ini untuk memberikan spasi disetiap sisi*/
+}
+/* Ini class public yang digunakan untuk <header class="banner">*/
+.banner {
+	background-color: #11233b;
+	color: white;
+	padding: 10px 20px;
+}
+/* Ini class untuk tag <body>*/
+body {
+	width: 960px; 
+	margin-left: auto; 
+	margin-right: auto;
+	background-color: #1881ea;
+	font-family: Helvetica;
+	font-size: 15px;
+	background-image: url('path/to/image.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* Ini class untuk tag <nav>*/
+nav {
+	background-color: #1881ea;
+	padding: 10px;
+	margin-top: 1px;
+}
+/* Ini class untuk tag <li> dan <a>*/
+li a {
+	color: white;
+}
+/* Ini class untuk tag <li>*/
+li {
+	display:  inline;
+	margin-left:  15px;  
+	margin-right:  15px;  
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+/* Ini class untuk tag <section>*/
+section {
+	background-color: #1881ea;
+	margin-top: 10px;
+	padding: 5px;
+}
+/* Ini class untuk tag <article>*/
+article {
+	background-color: white;
+	margin-top: 5px;
+	padding: 10px 15px;
+}
+/* Ini class untuk tag <main>*/
+main {
+	width: 640px;
+	float: left;
+	margin-bottom: 10px;
+}
+/* Ini class untuk tag <aside>*/
+aside {
+	background-color: #bbbbbb;
+	width: 270px; 
+	float: right; 
+	padding: 20px; 
+	margin-top: 10px;
+}
+/* Ini class untuk tag <footer>*/
+footer {
+	clear: both;
+	background-color: #1881ea;
+	color: white;
+	padding: 5px 20px;
+}
+/*FORM*/
+form {
+	width:500px;
+}
+/*Skrip diatas befungsi untuk menginstruksikan browser untuk mengatur lebar dari form menjadi 500px*/
+.search {
+	padding:8px 15px;
+	background:#1881ea;
+	border:0px solid #1881ea;
+}
+/*Skrip ini digunakan untuk stylekotak pencarian yang memiliki class .search. 
+Kita telah menentukan padding atas / bawah 8px dan padding  kiri  /  kanan  15px.  
+Kita  juga  telah  menentukan  warna  latar belakang menggunakan nilai RGBA, 
+di mana tiga nilai pertama mengacu pada warna RGB (Red, Green, Blue), dan yang terakhir (‘A’) 
+nilai ini mengacu pada transparansi. 
+Semakin rendah nilai transparansi, akan tampak lebih transparan elemen tersebut.
+Kita juga telah menentukan border selebar 0px. 
+Kenapa kok nilainya 0? Dilakukan hanya sebagai tindakan pencegahan untuk memastikan  bahwa  browser  versi  lama  
+tidak  akan  memberikan  border secara default.*/
+.button {
+	position:relative;
+	padding:6px 15px;
+	left:-8px;
+	border:2px solid #1881ea;
+	background-color:#1881ea;
+	color:#fafafa;
+}
+/*Skrip diatas merupakan styling untuk tombol pencarian. 
+Beberapa halyang perlu diperhatikan di sini:position: relative –Tombol pencarian, secara default, ditempatkan di 
+sebelah kanan kotak pencarian dengan margin beberapa piksel antara elemen-elemen. 
+Karena  kita  ingin  tombol  berada  tepat  di  sebelah  kotak  pencarian, maka kita mengaturnya dengan posisi 
+relatif.left: -8px –Karena  elemen  sekarang  memiliki  posisi  relatif,  kita bisa menggeser ke kiri dengan 
+memberikan posisi negatif.padding: 6px 15px –Bagian atas atau bawah padding pada bagian tombol kurang lebar, 
+maka kita setting padding agar lebar dari tombol sama seperti lebar pada form.*/
+.button:hover {
+	background-color:#fafafa;
+	color:#1881ea;
+}
+/*Untuk  skrip  diatas  berfungsi  untukmengatur  warna  button  ketika disorot dengan mouse.*//*TABLE*/
+.table {
+	font-family: sans-serif;
+	font-size: 13px;
+	color: #1881ea;
+	border-collapse: collapse;
+	width: 40%;
+	border: 1px solid #f2f5f7;
+}
+.table tr th{
+	background: #35A9DB;
+	color: #fff;
+	font-weight: small;
+}
+.table th, td {
+	padding: 4px 17px;
+}
+.table tr:hover {
+	background-color: #f5f5f5;
+}
+.table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+div.form1 {
+	padding:10px 22px 0;
+	color: #1881ea;
+}
+div.form1 div.grup {
+	margin: 16px 0;
+}
+div.form1 div.grup label {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+div.form1 div.grup textarea {
+	width: 100%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border:none;
+	color: #1881ea;
+}
+div.form1 div.grup select {
+	width: 20%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border:none;
+	color: #1881ea;
+}
+div.form1 div.grup input[type="text"],div.form1 div.grup input[type="password"] {
+	width: 100%;
+	height: 30px;
+	padding: 0 10px;
+	background: #eeeeee;
+	border:none;
+	color: #1881ea;
+}
+div.form1 div.grup input[type="submit"] {
+	background: #20416c;
+	padding: 4px 16px;
+	margin: 0 auto;
+	border: 1px solid #20416c;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+}
+div.form1 div.grup input[type="submit"]:hover {
+	background-color:#fafafa;
+	color:#1881ea;
+	}
