@@ -29,14 +29,6 @@
       		</li>
     	</ul>
     
-    <form class="form-inline my-2 my-lg-0" action='beranda.php'method="POST">
-						<input class="form-control mr-sm-2" type='text'class="search" value='' name='qcari'>
-						<input type='submit' class="button" value='Cari'><a href='beranda.php'>Tampilkan Semua Data</a>
-						<br>
-						<br>
-					
-					</form>
-  	</div>
 	</nav>
 	<div class="container">
 		<div class="row">

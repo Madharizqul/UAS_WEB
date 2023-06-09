@@ -53,6 +53,15 @@
         	<a class="nav-link" href="tentang.php">Data Pendaftar</a>
       		</li>
     	</ul>
+        <form class="form-inline my-2 my-lg-0" action="beranda.php" method="POST">
+    <input class="form-control mr-sm-2" type="text" class="search" value="" name="qcari">
+    <input type="submit" class="button" value="Cari">
+    <br>
+    <br>
+</form>
+
+<a href="tentang.php">Tampilkan Semua Data</a>
+
     </div>
 	</nav>
     <div class="jumbotron">
